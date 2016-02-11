@@ -1,0 +1,123 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: #ccc;
+}
+
+figure {
+    margin: auto;
+}
+
+.content article {
+    padding: 50px 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-box {
+    position: relative;
+    height: 600px;
+    background-image: url(/images/abstractbg.jpg);
+    background-size: auto 600px;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.logo {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    font-size: 80pt;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.front-image {
+    width: 960px;
+    height: 733px;
+    background-size: 250px;
+    background-image: url(/images/new_biohazard_logo_by_grandmaster13-d4h8tdg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+    top: -100px;
+}
+
+.back-image {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    width: 960px;
+    height: 298px;
+    background-image: url(/images/biohazard_picture.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+}
+
+.myButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #fbafe3;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #fbafe3;
+    box-shadow: inset 0px 1px 0px 0px #fbafe3;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d));
+    background: -moz-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+    background: -webkit-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+    background: -o-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+    background: -ms-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+    background: linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d', GradientType=0);
+    background-color: #ff5bb0;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #ee1eb5;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 24px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #c70067;
+}
+
+.myButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0));
+    background: -moz-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+    background: -webkit-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+    background: -o-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+    background: -ms-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+    background: linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0', GradientType=0);
+    background-color: #ef027d;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.something {
+    width: 100%;
+    text-align: center;
+}
