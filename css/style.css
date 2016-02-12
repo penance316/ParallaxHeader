@@ -24,7 +24,7 @@ img {
 .header-box {
     position: relative;
     height: 600px;
-    background-image: url(../images/abstractbg.jpg);
+    background-image: url(../images/abstractbg_blur.jpg);
     background-size: auto 600px;
     background-position: top center;
     background-attachment: fixed;
@@ -58,14 +58,9 @@ img {
 }
 
 .back-image {
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
     width: 960px;
     height: 298px;
-    background-image: url(../images/biohazard_picture.png);
+    background-image: url(../images/biohazard_picture_blur.png);
     background-size: 250px;
     background-repeat: no-repeat;
     background-position: top left;
